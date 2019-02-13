@@ -1,0 +1,14 @@
+{
+  "name": "svg_reactor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "svgo -f ./reactor -o ./modified --disable=removeViewBox"
+  },
+  "author": "Vlad Gor",
+  "license": "ISC",
+  "dependencies": {
+    "svgo": "^1.1.1"
+  }
+}
